@@ -102,9 +102,9 @@ def createArcPrecedence(BM,
     BM2 = BM[:, [xcol, ycol, zcol,slopecol]]
 
     for i, (x_i, y_i, z_i, angle_i) in enumerate(BM2, start=1):
-        min_width = minWidth  # Set to 0 to exclude same-elevation blocks, >0 to include them
+        min_radius = minWidth / 2  # Set to 0 to exclude same-elevation blocks, >0 to include them
 
-        if z_i == zmax and min_width == 0:
+        if z_i == zmax and min_radius == 0:
             continue
 
         cone_height = zsize * num_blocks_above
@@ -139,8 +139,8 @@ def createArcPrecedence(BM,
             cone_radii = (heights * cone_radius / cone_height)
 
         # If min_width > 0, allow a base disk radius at z = z_i
-        if min_width > 0:
-            cone_radii = np.where(heights == 0, min_width, cone_radii + min_width)
+        if min_radius > 0:
+            cone_radii = np.where(heights == 0, min_width, cone_radii + min_radius)
 
         # Get blocks inside the cone + base
         inside_indices = np.where(dists <= cone_radii)[0]
