@@ -1,7 +1,6 @@
 # pit-optimisation
 
 The block model needs to have the following data:
-
     • index – Unique identifier for each block. Must be sequential and start at 1 
     • x – X coordinate of the block centroid
     • y – Y coordinate of the block centroid
@@ -12,7 +11,6 @@ The block model needs to have the following data:
 Running the script:
   - Install the libraries in the requirements.txt
   - Open pit_optimiser.py in python IDE / Jupyter Notebook
-
     • File location of the block model (line 312)
     • Specify block model size (lines 315-317)
     • Map the columns of the xyz coordinates (lines 320-322)
