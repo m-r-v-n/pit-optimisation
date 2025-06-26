@@ -1,6 +1,6 @@
 # pit-optimisation
 
-## The block model needs to have the following data:
+## The block model csv file needs to have the following data:
 
     • index – Unique identifier for each block. Must be sequential and start at 1 
     • x – X coordinate of the block centroid
