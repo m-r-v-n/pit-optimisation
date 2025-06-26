@@ -11,8 +11,9 @@
 
 ## Running the script:
 
-###Install the libraries in the requirements.txt 
-###Open pit_optimiser.py in python IDE / Jupyter Notebook
+Install the libraries in the requirements.txt 
+
+Open pit_optimiser.py in python IDE / Jupyter Notebook
     
     • File location of the block model (line 312)
     • Specify block model size (lines 315-317)
