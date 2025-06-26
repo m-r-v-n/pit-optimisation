@@ -23,3 +23,5 @@ Open pit_optimiser.py in python IDE / Jupyter Notebook to configure the followin
     • Map the column of the Block Value (line 335)
     • Map the column of the slope angle (line 338)
     • Map the index column (line 341)
+
+if you find any bugs, feel free to report
