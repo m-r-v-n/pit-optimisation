@@ -25,3 +25,19 @@ Open pit_optimiser.py in python IDE / Jupyter Notebook to configure the followin
     • Map the index column (line 341)
 
 if you find any bugs, feel free to report
+
+### ⚠Pseudoflow Licensing Notice
+
+This project can optionally use the **Pseudoflow** library for certain graph operations (e.g., max-flow/min-cut).
+
+However:
+
+- **Pseudoflow is not open source**
+- It is **not included** in this repository
+- It is licensed only for **educational, research, and not-for-profit purposes**
+- **Commercial use of Pseudoflow requires a separate license** from UC Berkeley
+
+Learn more:  
+https://riot.ieor.berkeley.edu/Applications/Pseudoflow/maxflow.html
+
+If your use case involves Pseudoflow, you are responsible for ensuring compliance with its license terms.
