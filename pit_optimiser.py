@@ -1,9 +1,9 @@
 ############################################################
 # Pseudoflow Pit Optimiser
 #
-#
-#
-#
+# This module requires the Pseudoflow library.
+# Pseudoflow is licensed separately for non-commercial use only.
+# See https://riot.ieor.berkeley.edu/Applications/Pseudoflow/maxflow.html
 #
 ############################################################
 
