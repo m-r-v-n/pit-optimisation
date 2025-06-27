@@ -26,7 +26,7 @@ Open pit_optimiser.py in python IDE / Jupyter Notebook to configure the followin
 
 if you find any bugs, feel free to report
 
-### ⚠Pseudoflow Licensing Notice
+### Pseudoflow Licensing Notice
 
 This project can optionally use the **Pseudoflow** library for certain graph operations (e.g., max-flow/min-cut).
 
