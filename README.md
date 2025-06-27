@@ -28,7 +28,7 @@ if you find any bugs, feel free to report
 
 ### Pseudoflow Licensing Notice
 
-This project can optionally use the **Pseudoflow** library for certain graph operations (e.g., max-flow/min-cut).
+This project uses the **Pseudoflow** library for optimisation (e.g., max-flow/min-cut).
 
 However:
 
