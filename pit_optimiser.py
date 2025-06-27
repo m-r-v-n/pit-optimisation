@@ -232,9 +232,9 @@ def Pseudoflow_UPL(BM,
     source = source
     sink = sink
 
-    x_coords = BM[:, 0]           # X is column 0
-    y_coords = BM[:, 1]           # Y is column 1
-    z_coords = BM[:, 2]           # Z is column 2
+    x_coords = BM[:, xcol]
+    y_coords = BM[:, ycol]
+    z_coords = BM[:, zcol]
 
     # create graph with enough vertices
     num_vertices = sink + 1  # include sink itself
